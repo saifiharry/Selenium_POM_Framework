@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="org.JavaSelenium.utils.ExtentListener"> </listener>
+    </listeners>
+
+    <test name="FormURLTestCase">
+        <classes>
+            <class name="org.JavaSelenium.tests.FormTestCase"/>
+        </classes>
+    </test>
+
+    <test name="ImageURLTestCase">
+        <classes>
+            <class name="org.JavaSelenium.tests.ImagesTestCase"/>
+        </classes>
+    </test>
+
+</suite>
